@@ -11,7 +11,7 @@ public class fbregtestcase extends GenericWrappers {
 	@Test(dataProvider = "fbreg", dataProviderClass = DP001.class)
 	public void fbregistration(String firstname, String lastname, String emailid, String password, String birthmonth,
 			String birthyear, String birthday, String gender) {
-System.out.println("Start the execution");
+System.out.println("Start the execution.. Bhavani");
 		invokeApp("chrome", "https://www.facebook.com/");
 		clickByXPath("//a[text()='Create new account']");
 		waitDriver(3000);
